@@ -1,12 +1,12 @@
 
 //import 'package:untitled2/settingPage.dart';
 
-import 'Accountpage.dart';
-import 'Homepage.dart';
-import 'Settingpage.dart';
+import '../Accountpage.dart';
+import '../Homepage.dart';
+import '../Settingpage.dart';
 import 'package:flutter/material.dart';
 
-import 'Searchpage.dart';
+import '../Searchpage.dart';
 void main() {
   runApp(
     MaterialApp(
