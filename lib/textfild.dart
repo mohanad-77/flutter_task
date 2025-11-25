@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Textfield Task',
-
+      debugShowCheckedModeBanner: false,
       // تحديد الصفحة الرئيسية
       home: const TextFieldScreen(),
     );
