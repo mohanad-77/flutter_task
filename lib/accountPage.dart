@@ -11,7 +11,7 @@ class Accountpage extends StatelessWidget {
         children: [
           Icon(Icons.account_box,size: 30,color: Colors.grey,),
           SizedBox(height: 20,),
-          Text('الحساب',style: TextStyle(fontSize: 24,color: Colors.grey),)
+          Text('الحسـاب',style: TextStyle(fontSize: 24,color: Colors.grey),)
         ],
       ),
     );

@@ -11,7 +11,7 @@ class Homepage extends StatelessWidget {
         children: [
           Icon(Icons.home,size: 30,color: Colors.grey,),
           SizedBox(height: 20,),
-          Text('الرئيسية',style: TextStyle(fontSize: 24,color: Colors.grey),)
+          Text('الرئـيسية',style: TextStyle(fontSize: 24,color: Colors.grey),)
         ],
       ),
     );

@@ -11,7 +11,7 @@ class Settingpage extends StatelessWidget {
         children: [
           Icon(Icons.settings,size: 30,color: Colors.grey,),
           SizedBox(height: 20,),
-          Text('الاعدادات',style: TextStyle(fontSize: 24,color: Colors.grey),)
+          Text('الاعـدادات',style: TextStyle(fontSize: 24,color: Colors.grey),)
         ],
       ),
     );

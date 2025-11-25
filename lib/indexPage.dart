@@ -68,10 +68,10 @@ class _IndexpageState extends State<Indexpage> {
         unselectedItemColor: Colors.grey[600],
         selectedItemColor: Colors.blue[800],
         items: [
-          BottomNavigationBarItem(label: 'الرئيسية', icon: Icon(Icons.home)),
-          BottomNavigationBarItem(label: 'البحث', icon: Icon(Icons.search)),
-          BottomNavigationBarItem(label: 'الاعدادات', icon: Icon(Icons.settings)),
-          BottomNavigationBarItem(label: 'الحساب', icon: Icon(Icons.account_box)),
+          BottomNavigationBarItem(label: 'الرئـيسية', icon: Icon(Icons.home)),
+          BottomNavigationBarItem(label: 'الـبحث', icon: Icon(Icons.search)),
+          BottomNavigationBarItem(label: 'الاعـدادات', icon: Icon(Icons.settings)),
+          BottomNavigationBarItem(label: 'الـحساب', icon: Icon(Icons.account_box)),
         ],
       ),
     );

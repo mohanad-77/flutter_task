@@ -11,7 +11,7 @@ class Searchpage extends StatelessWidget {
         children: [
           Icon(Icons.search,size: 30,color: Colors.grey,),
           SizedBox(height: 20,),
-          Text('البحث',style: TextStyle(fontSize: 24,color: Colors.grey),)
+          Text('الـبحث',style: TextStyle(fontSize: 24,color: Colors.grey),)
         ],
       ),
     );
