@@ -1,0 +1,18 @@
+import 'package:flutter/material.dart';
+class accountPage extends StatelessWidget {
+  const accountPage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return  Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Icon(Icons.account_box,size: 30,color: Colors.grey,),
+          SizedBox(height: 20,),
+          Text('الحسـاب',style: TextStyle(fontSize: 24,color: Colors.grey),)
+        ],
+      ),
+    );
+  }
+}
