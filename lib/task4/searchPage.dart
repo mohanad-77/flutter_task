@@ -15,15 +15,19 @@ class searchPage extends StatelessWidget {
 
     return Scaffold(
       body:
-
       ListView(
-        children: items.map((item) {
-          return ListTile(
-            title: Text(item),
-          );
-        }).toList(),
+        children: [
+          ListTile(
+            leading: Icon(Icons.phone),
+            title: Text('Phone'),
+          ),
+          ListTile(
+            leading: Icon(Icons.email),
+            title: Text('Email'),
+          )
+        ],
       ),
-
+      
     );
   }
 }
